@@ -40,25 +40,23 @@ jobs:
           done | sort -r | cut -d'|' -f2-))
           unset IFS
 
-          # generate table rows
-          rows=""
+          # generate blockquote rows
+          content=""
           for project in "${sorted_projects[@]}"; do
             IFS='|' read -r repo name desc status lang lang_color lang_logo <<< "$project"
             status_color="34d058"
             [ "$status" = "complete" ] && status_color="8b949e"
-            rows+="<tr><td>
-          <strong><a href=\"https://github.com/akjcon/$repo\">$name</a></strong>
-          <br>$desc
-          </td><td align=\"right\" width=\"340\">
-          <img src=\"https://img.shields.io/badge/status-$status-$status_color\" alt=\"$status\"> <img src=\"https://img.shields.io/badge/$lang-$lang_color?logo=$lang_logo&logoColor=white\" alt=\"$lang\"> <img src=\"https://img.shields.io/github/last-commit/akjcon/$repo?color=58a6ff&label=last%20commit\" alt=\"last commit\"> <img src=\"https://img.shields.io/github/commit-activity/t/akjcon/$repo?color=a371f7&label=commits\" alt=\"commits\">
-          </td></tr>
+            badge_img() { echo "<picture><img src=\"$1\" alt=\"$2\" height=\"20\" valign=\"middle\"></picture>"; }
+            content+="> **[$name](https://github.com/akjcon/$repo)** \\&nbsp; $(badge_img "https://img.shields.io/badge/status-$status-$status_color" "$status") $(badge_img "https://img.shields.io/badge/$lang-${lang_color}?logo=${lang_logo}\\&logoColor=white" "$lang") $(badge_img "https://img.shields.io/github/last-commit/akjcon/$repo?color=58a6ff\\&label=last%20commit" "last commit") $(badge_img "https://img.shields.io/github/commit-activity/t/akjcon/$repo?color=a371f7\\&label=commits" "commits")
+          >
+          > $desc
+
           "
           done
 
           # replace content between markers
-          table="<table>\n${rows}</table>"
-          awk -v table="$table" '
-            /<!-- BEGIN PROJECTS -->/ { print; printf "%s\n", table; skip=1; next }
+          awk -v content="$content" '
+            /<!-- BEGIN PROJECTS -->/ { print; printf "%s", content; skip=1; next }
             /<!-- END PROJECTS -->/ { skip=0 }
             !skip { print }
           ' README.md > README.tmp && mv README.tmp README.md
