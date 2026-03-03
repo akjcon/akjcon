@@ -1,4 +1,4 @@
-Founding Engineer (#2) at **[AIVideo.com](https://aivideo.com)**
+Founding Engineer (#2 hire) at **[AIVideo.com](https://aivideo.com)** - building the future of generative video
 
 ---
 
