@@ -2,7 +2,7 @@ Founding Engineer (#2 hire) at **[AIVideo.com](https://aivideo.com)** - building
 
 ---
 
-### What I'm working on
+#### What I'm working on (when I'm not working)
 
 <!-- BEGIN PROJECTS -->
 > **[thalamus](https://github.com/akjcon/thalamus)** &nbsp; <picture><img src="https://img.shields.io/badge/status-active-34d058" alt="active" height="20" valign="middle"></picture> <picture><img src="https://img.shields.io/badge/Python-3776ab?logo=python&logoColor=white" alt="Python" height="20" valign="middle"></picture> <picture><img src="https://img.shields.io/github/last-commit/akjcon/thalamus?color=58a6ff&label=last%20commit" alt="last commit" height="20" valign="middle"></picture> <picture><img src="https://img.shields.io/github/commit-activity/t/akjcon/thalamus?color=a371f7&label=commits" alt="commits" height="20" valign="middle"></picture>
