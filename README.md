@@ -12,8 +12,8 @@ Founding Engineer (#2) at **[AIVideo.com](https://aivideo.com)**
 
 > **[col.run](https://github.com/akjcon/col.run)** &mdash; AI-powered running coach and training companion
 >
-> ![status: active](https://img.shields.io/badge/status-active-34d058) ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white) ![last commit](https://img.shields.io/badge/last%20commit-Feb%202026-58a6ff) ![commits](https://img.shields.io/badge/commits-68-a371f7)
+> ![status: active](https://img.shields.io/badge/status-active-34d058) ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white) ![last commit](https://img.shields.io/github/last-commit/akjcon/col.run?color=58a6ff&label=last%20commit) ![commits](https://img.shields.io/github/commit-activity/t/akjcon/col.run?color=a371f7&label=commits)
 
 > **[thalamus](https://github.com/akjcon/thalamus)** &mdash; Geopolitical intelligence agent for identifying non-obvious trading signals
 >
-> ![status: active](https://img.shields.io/badge/status-active-34d058) ![Python](https://img.shields.io/badge/Python-3776ab?logo=python&logoColor=white) ![last commit](https://img.shields.io/badge/last%20commit-Mar%202026-58a6ff) ![commits](https://img.shields.io/badge/commits-3-a371f7)
+> ![status: active](https://img.shields.io/badge/status-active-34d058) ![Python](https://img.shields.io/badge/Python-3776ab?logo=python&logoColor=white) ![last commit](https://img.shields.io/github/last-commit/akjcon/thalamus?color=58a6ff&label=last%20commit) ![commits](https://img.shields.io/github/commit-activity/t/akjcon/thalamus?color=a371f7&label=commits)
