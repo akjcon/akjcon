@@ -1,12 +1,19 @@
-## Hey, I'm Jack
+# Jack Consenstein
 
-Founding Engineer (#2) at **[AIVideo.com](https://aivideo.com)** — building the future of AI-powered video.
+Founding Engineer (#2) at **[AIVideo.com](https://aivideo.com)**
 
-When I'm not doing that, I'm usually hacking on side projects:
+---
 
-| Project | Description | Status |
-|---------|-------------|--------|
-| **[clippath.app](https://clippath.app)** | Visual CSS `clip-path` editor with bezier curve support | `actively building` |
-| **[col.run](https://col.run)** | AI-powered running coach and training companion | `actively building` |
-| **thalamus** | Geopolitical intelligence agent for identifying non-obvious trading signals | `actively building` |
+### What I'm working on
 
+> **[clip-path-editor](https://github.com/akjcon/clip-path-editor)** &mdash; Visual CSS `clip-path` editor with bezier curve support
+>
+> ![status: active](https://img.shields.io/badge/status-active-58a6ff)
+
+> **[col.run](https://github.com/akjcon/col.run)** &mdash; AI-powered running coach and training companion
+>
+> ![status: active](https://img.shields.io/badge/status-active-58a6ff)
+
+> **[thalamus](https://github.com/akjcon/thalamus)** &mdash; Geopolitical intelligence agent for identifying non-obvious trading signals
+>
+> ![status: active](https://img.shields.io/badge/status-active-58a6ff)
