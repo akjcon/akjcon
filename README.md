@@ -9,3 +9,4 @@ When I'm not doing that, I'm usually hacking on side projects:
 | **[clippath.app](https://clippath.app)** | Visual CSS `clip-path` editor with bezier curve support | `actively building` |
 | **[col.run](https://col.run)** | AI-powered running coach and training companion | `actively building` |
 | **thalamus** | Geopolitical intelligence agent for identifying non-obvious trading signals | `actively building` |
+
