@@ -20,4 +20,5 @@ Founding Engineer (#2 hire) at **[AIVideo.com](https://aivideo.com)** - building
 > **[react-page-curl](https://github.com/akjcon/react-page-curl)** &nbsp; <picture><img src="https://img.shields.io/badge/status-complete-8b949e" alt="complete" height="20" valign="middle"></picture> <picture><img src="https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white" alt="TypeScript" height="20" valign="middle"></picture> <picture><img src="https://img.shields.io/github/last-commit/akjcon/react-page-curl?color=58a6ff&label=last%20commit" alt="last commit" height="20" valign="middle"></picture> <picture><img src="https://img.shields.io/github/commit-activity/t/akjcon/react-page-curl?color=a371f7&label=commits" alt="commits" height="20" valign="middle"></picture>
 >
 > A reusable page curl for toggling dark/light mode
+
 <!-- END PROJECTS -->
