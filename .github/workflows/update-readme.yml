@@ -21,6 +21,7 @@ jobs:
           PROJECTS=(
             "thalamus|thalamus|Geopolitical intelligence agent for identifying non-obvious trading signals|active|Python|3776ab|python"
             "col.run|col.run|AI-powered running coach and training companion|active|TypeScript|3178c6|typescript"
+            "emotional-world|emotional-world|3D globe colored by hourly GDELT media tone per country|active|TypeScript|3178c6|typescript"
             "clip-path-editor|clip-path-editor|Visual CSS clip-path editor with bezier curve support|complete|TypeScript|3178c6|typescript"
             "react-page-curl|react-page-curl|A reusable page curl for toggling dark/light mode|complete|TypeScript|3178c6|typescript"
           )
